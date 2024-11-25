@@ -73,6 +73,7 @@ func (i *Island) Create_island() {
 		i.Base[x] = ligne
 	}
 }
+
 func (i *Island) Create_image() {
 	img := image.NewRGBA(image.Rect(0, 0, i.Width, i.Height))
 
